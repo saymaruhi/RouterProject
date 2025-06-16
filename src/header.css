@@ -1,6 +1,7 @@
 body{
 margin: 0;
 padding: 0;
+background-color: rgb(202, 215, 226);
  
 }
 
@@ -25,4 +26,6 @@ padding: 0;
     text-decoration: none;
     font-size: 20px;
 } 
+
+
 

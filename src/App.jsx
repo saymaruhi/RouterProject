@@ -6,7 +6,7 @@ import "./header.css";
 
 function App() {
   return (
-    <div>
+    <div >
       <div className="header">
         <Link className= "link"to= {"logo"} ><h2>Logo</h2></Link>
         
@@ -25,12 +25,14 @@ function App() {
        
       </div>
 
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
        
       </Routes>
+    
     </div>
   );
 }
