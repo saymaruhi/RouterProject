@@ -1,0 +1,28 @@
+body{
+margin: 0;
+padding: 0;
+ 
+}
+
+
+.header{
+    background-color: rgb(194, 199, 199);
+     display: flex;
+     justify-content:space-between ;
+     padding: 10px;
+   
+}
+.header ul{
+   
+    display: flex;
+    list-style: none;
+    margin: auto;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+.header .link{
+    text-decoration: none;
+    font-size: 20px;
+} 
+
