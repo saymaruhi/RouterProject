@@ -7,9 +7,11 @@ export default function PageNotFound() {
     <div>
       <div className='page404'>
         <h1>Page Not Found</h1>
+       <div>
       <Link className= "space" to= "/">Go to Home Page</Link>
+      </div>
         <img src={pageImage}  alt='"404' style={{width: '700px'}} />
-        
+       
       </div>
     </div>
   )

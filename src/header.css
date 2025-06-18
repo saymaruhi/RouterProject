@@ -11,7 +11,7 @@ background-color: rgb(202, 215, 226);
      display: flex;
      justify-content:space-between ;
      padding: 10px;
-   
+     
 }
 .header ul{
    
@@ -20,7 +20,7 @@ background-color: rgb(202, 215, 226);
     margin: auto;
     justify-content: space-around;
      
-    width: 200px;
+    width: 300px;
     
 }
 .header .link{
@@ -37,6 +37,13 @@ background-color: rgb(202, 215, 226);
     display: inline-block;
     background-color: rgb(189, 185, 192);
 }
-
+.college{
+    text-align: center;
+    font-size: large;
+}
+.college .link{
+    text-decoration: none;
+    margin: 10px;
+}
 
 
